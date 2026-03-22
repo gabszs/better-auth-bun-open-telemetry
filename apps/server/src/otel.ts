@@ -46,7 +46,7 @@ const sdk = new NodeSDK({
 			"@opentelemetry/instrumentation-pino": { enabled: false },
 			"@opentelemetry/instrumentation-ioredis": { enabled: false },
 			"@opentelemetry/instrumentation-redis": { enabled: false },
-			"@opentelemetry/instrumentation-pg": { enabled: true },
+			"@opentelemetry/instrumentation-pg": { enabled: false },
 		}),
 	],
 });
